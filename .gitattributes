@@ -1,0 +1,6 @@
+# Set the default behavior for all files.
+* text eol=lf
+
+# File specific rules.
+*.bat text eol=crlf
+*.jar binary

@@ -1,0 +1,11 @@
+# General
+.*
+
+# Directories
+dist/
+bin/
+build/
+data/
+documentation-site/
+__pycache__
+venv/
