@@ -9,6 +9,8 @@ import logging
 import datetime
 import argparse
 import typing
+import urllib.request
+import contextlib 
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 
@@ -36,7 +38,7 @@ def _read_arguments() -> dict[str, str]:
     parser.add_argument(
         "--sparql-endpoints",
         required=True,
-        help="Path to CSV file with SPARQL endpoints.",
+        help="Path to CSV file, or URL, with SPARQL endpoints.",
     )
     parser.add_argument(
         "--output-directory",
@@ -48,8 +50,8 @@ def _read_arguments() -> dict[str, str]:
 
 def main(args):
     _initialize_logging()
-    endpoints_generator = list_endpoints_from_csv_file(args["sparql_endpoints"])
-    availability = test_endpoint_availability(endpoints_generator)
+    endpoints = list_endpoints_from_csv(args["sparql_endpoints"])
+    availability = test_endpoint_availability(endpoints)
     write_report(availability, args["output_directory"])
 
 
@@ -61,10 +63,10 @@ def _initialize_logging():
     )
 
 
-def list_endpoints_from_csv_file(path: str):
+def list_endpoints_from_csv(path: str):
     # Ignore duplicit records.
     visited = set()
-    with open(path, encoding="utf-8", newline="") as stream:
+    with open_stream(path) as stream:
         reader = csv.reader(stream)
         next(reader)
         for row in reader:
@@ -73,6 +75,18 @@ def list_endpoints_from_csv_file(path: str):
                 continue
             else:
                 yield url
+
+def open_stream(path:str):
+    if path.startswith("http"):
+        return url_as_lines(path)
+    else:
+        return open(path, encoding="utf-8", newline="")
+
+@contextlib.contextmanager
+def url_as_lines(url:str):
+    with urllib.request.urlopen(url) as response:
+        lines = [line.decode("utf-8") for line in response.readlines()]
+        yield lines
 
 
 def test_endpoint_availability(endpoints) -> list[ReportItem]:
