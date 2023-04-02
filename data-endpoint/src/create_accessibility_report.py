@@ -10,7 +10,7 @@ import datetime
 import argparse
 import typing
 import urllib.request
-import contextlib 
+import contextlib
 import pathlib
 
 from SPARQLWrapper import SPARQLWrapper, JSON
@@ -63,7 +63,6 @@ def main(args):
         symlink_report(args["output_directory"], file_name)
 
 
-
 def initialize_logging():
     logging.basicConfig(
         format="%(asctime)s [%(levelname)s] %(name)s : %(message)s",
@@ -85,14 +84,16 @@ def list_endpoints_from_csv(path: str):
             else:
                 yield url
 
-def open_stream(path:str):
+
+def open_stream(path: str):
     if path.startswith("http"):
         return url_as_lines(path)
     else:
         return open(path, encoding="utf-8", newline="")
 
+
 @contextlib.contextmanager
-def url_as_lines(url:str):
+def url_as_lines(url: str):
     with urllib.request.urlopen(url) as response:
         lines = [line.decode("utf-8") for line in response.readlines()]
         yield lines
@@ -101,26 +102,40 @@ def url_as_lines(url:str):
 def test_endpoint_availability(endpoints) -> list[ReportItem]:
     result = []
     for url in endpoints:
-        available = test_endpoint(url)
-        if available:
-            logging.info("'%s' is available.", url)
-        else:
+        available, is_sparql, has_content = test_endpoint(url)
+        report = {
+            "endpoint": url,
+            "available": available,            
+        }
+        result.append(report)
+        if not available:
             logging.info("'%s' is unavailable.", url)
-        result.append({"endpoint": url, "available": available})
+            continue
+        report["sparql"] = is_sparql
+        if not is_sparql:
+            logging.info("'%s' is not SPARQL endpoint.", url)
+            continue
+        report["empty"] = not has_content
+        if not has_content:
+            logging.info("'%s' is empty.", url)
+            continue
+        logging.info("'%s' is available.", url)
     return result
 
 
-def test_endpoint(url: str) -> bool:
+def test_endpoint(url: str) -> tuple[bool, bool, bool]:
     """Using a simple ASK query test the endpoint."""
     endpoint = SPARQLWrapper(url)
     endpoint.setTimeout(TIMEOUT_SECOND)
     endpoint.setQuery("ASK WHERE { ?s ?p ?o }")
     endpoint.setReturnFormat(JSON)
     try:
-        endpoint.query().convert()
-        return True
+        response = endpoint.query().convert()
     except:
-        return False
+        return False, False, False
+    if not type(response) == dict or "boolean" not in response:
+        return True, False, False
+    return True, True, response["boolean"]
 
 
 def write_report(endpoints: list[ReportItem], directory: str) -> str:
@@ -140,7 +155,7 @@ def write_json(path: str, content):
         json.dump(content, stream, ensure_ascii=False, indent=2)
 
 
-def symlink_report(directory:str, file_name: str) -> None:
+def symlink_report(directory: str, file_name: str) -> None:
     """Update symlink to newly created file."""
     source = pathlib.Path(directory) / file_name
     destination = pathlib.Path(directory) / "sparql-available.json"
