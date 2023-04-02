@@ -144,7 +144,7 @@ def symlink_report(directory:str, file_name: str) -> None:
     """Update symlink to newly created file."""
     source = pathlib.Path(directory) / file_name
     destination = pathlib.Path(directory) / "sparql-available.json"
-    os.remove(destination)
+    destination.unlink(missing_ok=True)
     source.symlink_to(destination)
 
 if __name__ == "__main__":
