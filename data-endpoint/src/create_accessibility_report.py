@@ -156,7 +156,13 @@ def write_report(endpoints: list[ReportItem], directory: str) -> str:
     today_as_string = datetime.datetime.today().strftime("%Y-%m-%d")
     report: Report = {
         "metadata": {"date": today_as_string, "timeout": TIMEOUT_SECOND, "version": 1},
-        "data": endpoints,
+        "data": [
+            {
+                "endpoint": item["endpoint"],
+                "status": item["status"].value,
+            }
+            for item in endpoints
+        ],
     }
     file_name = f"{today_as_string}-sparql-available.json"
     os.makedirs(directory, exist_ok=True)
