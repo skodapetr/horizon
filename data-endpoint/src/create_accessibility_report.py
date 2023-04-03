@@ -118,20 +118,20 @@ def test_endpoint_availability(endpoints) -> list[ReportItem]:
         if not available:
             result.append({
                 "endpoint": url,
-                "available": EndpointStatus.UNAVAILABLE,
+                "status": EndpointStatus.UNAVAILABLE,
             })
             logging.info("'%s' is unavailable.", url)
             continue
         if not is_sparql:
             result.append({
                 "endpoint": url,
-                "available": EndpointStatus.INVALID,
+                "status": EndpointStatus.INVALID,
             })
             logging.info("'%s' is not SPARQL endpoint.", url)
             continue
         result.append({
             "endpoint": url,
-            "available": EndpointStatus.AVAILABLE,
+            "status": EndpointStatus.AVAILABLE,
         })
         logging.info("'%s' is available.", url)
     return result
