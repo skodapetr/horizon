@@ -2,6 +2,7 @@
 #
 # Generate report with SPARQL endpoint accessibility.
 #
+import enum
 import os
 import csv
 import json
@@ -15,20 +16,30 @@ import pathlib
 
 from SPARQLWrapper import SPARQLWrapper, JSON
 
-TIMEOUT_SECOND = 3
+TIMEOUT_SECOND = 5
+
+
+class EndpointStatus(enum.Enum):
+
+    UNAVAILABLE = "unavailable"
+
+    INVALID = "invalid"
+
+    AVAILABLE = "available"
+
 
 ReportItem = typing.TypedDict(
     "ReportItem",
     {
         "endpoint": str,
-        "available": bool,
+        "status": EndpointStatus,
     },
 )
 
 Report = typing.TypedDict(
     "Report",
     {
-        "metadata": typing.TypedDict("ReportMetadata", {"date": str, "timeout": int}),
+        "metadata": typing.TypedDict("ReportMetadata", {"date": str, "timeout": int, "version": int}),
         "data": list[ReportItem],
     },
 )
@@ -83,6 +94,7 @@ def list_endpoints_from_csv(path: str):
                 continue
             else:
                 yield url
+            break
 
 
 def open_stream(path: str):
@@ -100,25 +112,27 @@ def url_as_lines(url: str):
 
 
 def test_endpoint_availability(endpoints) -> list[ReportItem]:
-    result = []
+    result: list[ReportItem] = []
     for url in endpoints:
-        available, is_sparql, has_content = test_endpoint(url)
-        report = {
-            "endpoint": url,
-            "available": available,            
-        }
-        result.append(report)
+        available, is_sparql = test_endpoint(url)
         if not available:
+            result.append({
+                "endpoint": url,
+                "available": EndpointStatus.UNAVAILABLE,
+            })
             logging.info("'%s' is unavailable.", url)
             continue
-        report["sparql"] = is_sparql
         if not is_sparql:
+            result.append({
+                "endpoint": url,
+                "available": EndpointStatus.INVALID,
+            })
             logging.info("'%s' is not SPARQL endpoint.", url)
             continue
-        report["empty"] = not has_content
-        if not has_content:
-            logging.info("'%s' is empty.", url)
-            continue
+        result.append({
+            "endpoint": url,
+            "available": EndpointStatus.AVAILABLE,
+        })
         logging.info("'%s' is available.", url)
     return result
 
@@ -132,16 +146,16 @@ def test_endpoint(url: str) -> tuple[bool, bool, bool]:
     try:
         response = endpoint.query().convert()
     except:
-        return False, False, False
+        return False, False
     if not type(response) == dict or "boolean" not in response:
-        return True, False, False
-    return True, True, response["boolean"]
+        return True, False
+    return True, True
 
 
 def write_report(endpoints: list[ReportItem], directory: str) -> str:
     today_as_string = datetime.datetime.today().strftime("%Y-%m-%d")
     report: Report = {
-        "metadata": {"date": today_as_string, "timeout": TIMEOUT_SECOND},
+        "metadata": {"date": today_as_string, "timeout": TIMEOUT_SECOND, "version": 1},
         "data": endpoints,
     }
     file_name = f"{today_as_string}-sparql-available.json"
@@ -161,6 +175,7 @@ def symlink_report(directory: str, file_name: str) -> None:
     destination = pathlib.Path(directory) / "sparql-available.json"
     destination.unlink(missing_ok=True)
     source.symlink_to(destination)
+
 
 if __name__ == "__main__":
     main(_read_arguments())
