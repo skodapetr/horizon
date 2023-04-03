@@ -94,7 +94,6 @@ def list_endpoints_from_csv(path: str):
                 continue
             else:
                 yield url
-            break
 
 
 def open_stream(path: str):
