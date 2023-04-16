@@ -179,7 +179,7 @@ def symlink_report(directory: str, file_name: str) -> None:
     source = pathlib.Path(directory) / file_name
     destination = pathlib.Path(directory) / "sparql-available.json"
     destination.unlink(missing_ok=True)
-    source.symlink_to(destination)
+    destination.symlink_to(source)
 
 
 if __name__ == "__main__":
