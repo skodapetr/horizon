@@ -163,7 +163,7 @@ def write_report(endpoints: list[ReportItem], directory: str) -> str:
             for item in endpoints
         ],
     }
-    file_name = f"{today_as_string}-sparql-available.json"
+    file_name = f"sparql-{today_as_string}.json"
     os.makedirs(directory, exist_ok=True)
     write_json(os.path.join(directory, file_name), report)
     return file_name
@@ -177,7 +177,7 @@ def write_json(path: str, content):
 def symlink_report(directory: str, file_name: str) -> None:
     """Update symlink to newly created file."""
     source = pathlib.Path(directory) / file_name
-    destination = pathlib.Path(directory) / "sparql-available.json"
+    destination = pathlib.Path(directory) / "sparql.json"
     destination.unlink(missing_ok=True)
     destination.symlink_to(source)
 
