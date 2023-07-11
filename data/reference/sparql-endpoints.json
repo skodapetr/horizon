@@ -1,0 +1,4413 @@
+{
+  "@context": {
+    "@base": "https://skodapetr.github.io/horizon/v1/data/reference/sparql-endpoints/",
+    "@vocab": "https://skodapetr.github.io/horizon/v1/schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "void": "http://rdfs.org/ns/void#",
+    "dcterms": "http://purl.org/dc/terms/",
+    "title": "dcterms:title",
+    "created": {
+      "@id": "dcterms:created",
+      "@type": "xsd:dateTime"
+    },
+    "source": {
+      "@type": "@id"
+    },
+    "url": {
+      "@id": "void:sparqlEndpoint",
+      "@type": "@id"
+    }
+  },
+  "@id": "",
+  "endpoint": [
+    {
+      "@id": "0000",
+      "@type": "void:Dataset",
+      "url": "http://140.109.28.64:2020/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0001",
+      "@type": "void:Dataset",
+      "url": "http://156.35.31.156/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0002",
+      "@type": "void:Dataset",
+      "url": "http://156.35.82.103/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0003",
+      "@type": "void:Dataset",
+      "url": "http://193.145.57.56:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0004",
+      "@type": "void:Dataset",
+      "url": "http://202.45.139.84:10035/catalogs/fao/repositories/agris",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0005",
+      "@type": "void:Dataset",
+      "url": "http://202.45.139.84:10035/catalogs/fao/repositories/agrovoc",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0006",
+      "@type": "void:Dataset",
+      "url": "http://202.73.13.50:55824/catalogs/performance/repositories/jita",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0007",
+      "@type": "void:Dataset",
+      "url": "http://212.81.220.68:2020/elviajero",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0008",
+      "@type": "void:Dataset",
+      "url": "http://91.239.64.176:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0009",
+      "@type": "void:Dataset",
+      "url": "http://abs.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0010",
+      "@type": "void:Dataset",
+      "url": "http://academia6.poolparty.biz/PoolParty/sparql/Tesauro-Materias-BUPM",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0011",
+      "@type": "void:Dataset",
+      "url": "http://acm.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0012",
+      "@type": "void:Dataset",
+      "url": "http://adl-gazetteer.geog.ucsb.edu:3030/adl/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0013",
+      "@type": "void:Dataset",
+      "url": "http://aemet.linkeddata.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0014",
+      "@type": "void:Dataset",
+      "url": "http://afcsid.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0015",
+      "@type": "void:Dataset",
+      "url": "http://affymetrix.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0016",
+      "@type": "void:Dataset",
+      "url": "http://agalpha.mathbiol.org/repositories/tcga",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0017",
+      "@type": "void:Dataset",
+      "url": "http://agencies.publicdata.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0018",
+      "@type": "void:Dataset",
+      "url": "http://agrinepaldata.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0019",
+      "@type": "void:Dataset",
+      "url": "http://aksw.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0020",
+      "@type": "void:Dataset",
+      "url": "http://alaska.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0021",
+      "@type": "void:Dataset",
+      "url": "http://aliada.scanbit.net:8891/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0022",
+      "@type": "void:Dataset",
+      "url": "http://api.aucklandmuseum.com",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0023",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/bricklink/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0024",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/ecco-tcp-eighteenth-century-collections-online-texts/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0025",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/english-heritage/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0026",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/federal-reserve-economic-data/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0027",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/foodista/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0028",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/musicnet/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0029",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/nasa/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0030",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/openflights-routes/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0031",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/pali-english-lexicon/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0032",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/prelinger-archives/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0033",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/renewable-energy-generators/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0034",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/sanskrit-english-lexicon/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0035",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/un-hazardous-material-numbers/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0036",
+      "@type": "void:Dataset",
+      "url": "http://api.kasabi.com/dataset/yahoo-geoplanet/apis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0037",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/airports/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0038",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/bbc-backstage/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0039",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/bbc-wildlife/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0040",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/climb/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0041",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/datagovuk/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0042",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/elections/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0043",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/eumida/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0044",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/eupmedia/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0045",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/eurobarometer/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0046",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/eutc-productions/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0047",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/gunnbib-digitalmanuskripter/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0048",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/jgoodwin-genealogy/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0049",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/massobservation/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0050",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/metoffice/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0051",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/moseley/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0052",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/musicbrainz/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0053",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/nvd/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0054",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/openlibrary/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0055",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/ordnance-survey/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0056",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/pbac/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0057",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/pokedex/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0058",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/productdb/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0059",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/rsinger-dev4/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0060",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/schemapedia/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0061",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/smcjournals/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0062",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/theviewfrom/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0063",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/trafficscotland/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0064",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/whoiswho/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0065",
+      "@type": "void:Dataset",
+      "url": "http://apps.ideaconsult.net:8080/ontology",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0066",
+      "@type": "void:Dataset",
+      "url": "http://apps.morelab.deusto.es/labman/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0067",
+      "@type": "void:Dataset",
+      "url": "http://apps.morelab.deusto.es/teseo/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0068",
+      "@type": "void:Dataset",
+      "url": "http://aseg.cs.concordia.ca/secold/sparqlendpoint",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0069",
+      "@type": "void:Dataset",
+      "url": "http://asev.l3s.uni-hannover.de:8085/openrdf-sesame/repositories/TERENCE_STORY",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0070",
+      "@type": "void:Dataset",
+      "url": "http://babelnet.org/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0071",
+      "@type": "void:Dataset",
+      "url": "http://bfs.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0072",
+      "@type": "void:Dataset",
+      "url": "http://biolit.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0073",
+      "@type": "void:Dataset",
+      "url": "http://biomodels.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0074",
+      "@type": "void:Dataset",
+      "url": "http://biopax.biomodels.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0075",
+      "@type": "void:Dataset",
+      "url": "http://biopax.kegg.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0076",
+      "@type": "void:Dataset",
+      "url": "http://biopax.pharmgkb.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0077",
+      "@type": "void:Dataset",
+      "url": "http://bioportal.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0078",
+      "@type": "void:Dataset",
+      "url": "http://biordf.net/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0079",
+      "@type": "void:Dataset",
+      "url": "http://bis.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0080",
+      "@type": "void:Dataset",
+      "url": "http://bnb.data.bl.uk/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0081",
+      "@type": "void:Dataset",
+      "url": "http://budapest.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0082",
+      "@type": "void:Dataset",
+      "url": "http://catalogus-professorum.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0083",
+      "@type": "void:Dataset",
+      "url": "http://cau.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0084",
+      "@type": "void:Dataset",
+      "url": "http://cb.semsol.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0085",
+      "@type": "void:Dataset",
+      "url": "http://ccny-cuny.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0086",
+      "@type": "void:Dataset",
+      "url": "http://cdrewu.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0087",
+      "@type": "void:Dataset",
+      "url": "http://chebi.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0088",
+      "@type": "void:Dataset",
+      "url": "http://chembl.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0089",
+      "@type": "void:Dataset",
+      "url": "http://citeseer.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0090",
+      "@type": "void:Dataset",
+      "url": "http://ckan.eurohelp.es:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0091",
+      "@type": "void:Dataset",
+      "url": "http://clinicaltrials.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0092",
+      "@type": "void:Dataset",
+      "url": "http://colinda.org/endpoint.php",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0093",
+      "@type": "void:Dataset",
+      "url": "http://collection.britishmuseum.org/Sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0094",
+      "@type": "void:Dataset",
+      "url": "http://commons.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0095",
+      "@type": "void:Dataset",
+      "url": "http://cordis.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0096",
+      "@type": "void:Dataset",
+      "url": "http://core.kmi.open.ac.uk/squery",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0097",
+      "@type": "void:Dataset",
+      "url": "http://corpora.nlp2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0098",
+      "@type": "void:Dataset",
+      "url": "http://courseware.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0099",
+      "@type": "void:Dataset",
+      "url": "http://cr.eionet.europa.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0100",
+      "@type": "void:Dataset",
+      "url": "http://cr3.eionet.europa.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0101",
+      "@type": "void:Dataset",
+      "url": "http://crashmap.okfn.gr:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0102",
+      "@type": "void:Dataset",
+      "url": "http://crime.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0103",
+      "@type": "void:Dataset",
+      "url": "http://crm.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0104",
+      "@type": "void:Dataset",
+      "url": "http://crtm.linkeddata.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0105",
+      "@type": "void:Dataset",
+      "url": "http://crystaleye.ch.cam.ac.uk/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0106",
+      "@type": "void:Dataset",
+      "url": "http://ctd.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0107",
+      "@type": "void:Dataset",
+      "url": "http://cultura.linkeddata.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0108",
+      "@type": "void:Dataset",
+      "url": "http://curriculum.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0109",
+      "@type": "void:Dataset",
+      "url": "http://dacura.cs.tcd.ie/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0110",
+      "@type": "void:Dataset",
+      "url": "http://darmstadt.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0111",
+      "@type": "void:Dataset",
+      "url": "http://dartmouth.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0112",
+      "@type": "void:Dataset",
+      "url": "http://data-gov.ie/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0113",
+      "@type": "void:Dataset",
+      "url": "http://data.aalto.fi/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0114",
+      "@type": "void:Dataset",
+      "url": "http://data.allie.dbcls.jp/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0115",
+      "@type": "void:Dataset",
+      "url": "http://data.archiveshub.ac.uk/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0116",
+      "@type": "void:Dataset",
+      "url": "http://data.ariadne-eu.org/sparql.tpl",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0117",
+      "@type": "void:Dataset",
+      "url": "http://data.bib.uni-mannheim.de/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0118",
+      "@type": "void:Dataset",
+      "url": "http://data.bibbase.org:2020/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0119",
+      "@type": "void:Dataset",
+      "url": "http://data.bibsys.no/data/query_authority.html",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0120",
+      "@type": "void:Dataset",
+      "url": "http://data.cnr.it/sparql-proxy/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0121",
+      "@type": "void:Dataset",
+      "url": "http://data.colinda.org/endpoint.php",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0122",
+      "@type": "void:Dataset",
+      "url": "http://data.copac.ac.uk/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0123",
+      "@type": "void:Dataset",
+      "url": "http://data.duraark.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0124",
+      "@type": "void:Dataset",
+      "url": "http://data.ege.edu.tr/ep/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0125",
+      "@type": "void:Dataset",
+      "url": "http://data.fundacionctic.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0126",
+      "@type": "void:Dataset",
+      "url": "http://data.globalchange.gov/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0127",
+      "@type": "void:Dataset",
+      "url": "http://data.hnm.hu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0128",
+      "@type": "void:Dataset",
+      "url": "http://data.lenka.no/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0129",
+      "@type": "void:Dataset",
+      "url": "http://data.lider-project.eu/usage/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0130",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedct.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0131",
+      "@type": "void:Dataset",
+      "url": "http://data.linkededucation.org/request/lak-conference/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0132",
+      "@type": "void:Dataset",
+      "url": "http://data.linkededucation.org/request/ted/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0133",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedmdb.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0134",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedu.eu/don/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0135",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedu.eu/forge/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0136",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedu.eu/hud/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0137",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedu.eu/kis/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0138",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedu.eu/kis1112/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0139",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedu.eu/ocw/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0140",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedu.eu/prod/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0141",
+      "@type": "void:Dataset",
+      "url": "http://data.linkedu.eu/slidewiki/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0142",
+      "@type": "void:Dataset",
+      "url": "http://data.lod2.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0143",
+      "@type": "void:Dataset",
+      "url": "http://data.logainm.ie/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0144",
+      "@type": "void:Dataset",
+      "url": "http://data.nature.com/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0145",
+      "@type": "void:Dataset",
+      "url": "http://data.ngii.go.kr/SPARQL/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0146",
+      "@type": "void:Dataset",
+      "url": "http://data.nobelprize.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0147",
+      "@type": "void:Dataset",
+      "url": "http://data.noticias.universia.net/d2r-server/snorql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0148",
+      "@type": "void:Dataset",
+      "url": "http://data.oceandrilling.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0149",
+      "@type": "void:Dataset",
+      "url": "http://data.open.ac.uk/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0150",
+      "@type": "void:Dataset",
+      "url": "http://data.opendiscoveryspace.eu/sparql.tpl",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0151",
+      "@type": "void:Dataset",
+      "url": "http://data.organic-edunet.eu/snorql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0152",
+      "@type": "void:Dataset",
+      "url": "http://data.organic-edunet.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0153",
+      "@type": "void:Dataset",
+      "url": "http://data.ox.ac.uk/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0154",
+      "@type": "void:Dataset",
+      "url": "http://data.rism.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0155",
+      "@type": "void:Dataset",
+      "url": "http://data.semanticuniverse.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0156",
+      "@type": "void:Dataset",
+      "url": "http://data.semanticweb.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0157",
+      "@type": "void:Dataset",
+      "url": "http://data.szepmuveszeti.hu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0158",
+      "@type": "void:Dataset",
+      "url": "http://data.uni-muenster.de/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0159",
+      "@type": "void:Dataset",
+      "url": "http://data.utpl.edu.ec/ecuadorresearch/lod/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0160",
+      "@type": "void:Dataset",
+      "url": "http://data.utpl.edu.ec/utpl/lod/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0161",
+      "@type": "void:Dataset",
+      "url": "http://dati.camera.it/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0162",
+      "@type": "void:Dataset",
+      "url": "http://dati.isprambiente.it/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0163",
+      "@type": "void:Dataset",
+      "url": "http://datos.artium.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0164",
+      "@type": "void:Dataset",
+      "url": "http://datos.bcn.cl/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0165",
+      "@type": "void:Dataset",
+      "url": "http://datos.bne.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0166",
+      "@type": "void:Dataset",
+      "url": "http://dblp.l3s.de/d2r/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0167",
+      "@type": "void:Dataset",
+      "url": "http://dblp.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0168",
+      "@type": "void:Dataset",
+      "url": "http://dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0169",
+      "@type": "void:Dataset",
+      "url": "http://dbsnp.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0170",
+      "@type": "void:Dataset",
+      "url": "http://dbtune.org/bbc/peel/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0171",
+      "@type": "void:Dataset",
+      "url": "http://dbtune.org/classical/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0172",
+      "@type": "void:Dataset",
+      "url": "http://dbtune.org/jamendo/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0173",
+      "@type": "void:Dataset",
+      "url": "http://dbtune.org/magnatune/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0174",
+      "@type": "void:Dataset",
+      "url": "http://dbtune.org/musicbrainz/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0175",
+      "@type": "void:Dataset",
+      "url": "http://dbtune.org/myspace/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0176",
+      "@type": "void:Dataset",
+      "url": "http://de.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0177",
+      "@type": "void:Dataset",
+      "url": "http://deepblue.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0178",
+      "@type": "void:Dataset",
+      "url": "http://demo.spraakdata.gu.se/ltlod/test/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0179",
+      "@type": "void:Dataset",
+      "url": "http://deploy.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0180",
+      "@type": "void:Dataset",
+      "url": "http://dewey.info/sparql.php",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0181",
+      "@type": "void:Dataset",
+      "url": "http://digitale.bncf.firenze.sbn.it/openrdf-workbench/repositories/NS/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0182",
+      "@type": "void:Dataset",
+      "url": "http://digitaleconomy.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0183",
+      "@type": "void:Dataset",
+      "url": "http://diwis.imis.athena-innovation.gr:8181/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0184",
+      "@type": "void:Dataset",
+      "url": "http://doc.metalex.eu:8000/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0185",
+      "@type": "void:Dataset",
+      "url": "http://dotac.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0186",
+      "@type": "void:Dataset",
+      "url": "http://drugbank.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0187",
+      "@type": "void:Dataset",
+      "url": "http://dutchshipsandsailors.nl/data/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0188",
+      "@type": "void:Dataset",
+      "url": "http://ecb.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0189",
+      "@type": "void:Dataset",
+      "url": "http://ecb.publicdata.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0190",
+      "@type": "void:Dataset",
+      "url": "http://ecowlim.tfri.gov.tw/sparql/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0191",
+      "@type": "void:Dataset",
+      "url": "http://ecs.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0192",
+      "@type": "void:Dataset",
+      "url": "http://eculture2.cs.vu.nl:5020/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0193",
+      "@type": "void:Dataset",
+      "url": "http://eculture2.cs.vu.nl:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0194",
+      "@type": "void:Dataset",
+      "url": "http://edit.elte.hu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0195",
+      "@type": "void:Dataset",
+      "url": "http://el-devtc01.tugraz.at/~ldv/interlinking/endpoint_handler.php",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0196",
+      "@type": "void:Dataset",
+      "url": "http://el.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0197",
+      "@type": "void:Dataset",
+      "url": "http://en.openei.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0198",
+      "@type": "void:Dataset",
+      "url": "http://enaktingpsi.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0199",
+      "@type": "void:Dataset",
+      "url": "http://enipedia.tudelft.nl/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0200",
+      "@type": "void:Dataset",
+      "url": "http://environment.data.gov.uk/sparql/bwq/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0201",
+      "@type": "void:Dataset",
+      "url": "http://epo.publicdata.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0202",
+      "@type": "void:Dataset",
+      "url": "http://eprints.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0203",
+      "@type": "void:Dataset",
+      "url": "http://epsrc.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0204",
+      "@type": "void:Dataset",
+      "url": "http://era.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0205",
+      "@type": "void:Dataset",
+      "url": "http://eris.okfn.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0206",
+      "@type": "void:Dataset",
+      "url": "http://es.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0207",
+      "@type": "void:Dataset",
+      "url": "http://eu.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0208",
+      "@type": "void:Dataset",
+      "url": "http://eur-lex.publicdata.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0209",
+      "@type": "void:Dataset",
+      "url": "http://eurecom.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0210",
+      "@type": "void:Dataset",
+      "url": "http://europeana.ontotext.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0211",
+      "@type": "void:Dataset",
+      "url": "http://eurostat.linked-statistics.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0212",
+      "@type": "void:Dataset",
+      "url": "http://eventmedia.eurecom.fr/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0213",
+      "@type": "void:Dataset",
+      "url": "http://extbi.lab.aau.dk/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0214",
+      "@type": "void:Dataset",
+      "url": "http://factforge.net/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0215",
+      "@type": "void:Dataset",
+      "url": "http://famu.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0216",
+      "@type": "void:Dataset",
+      "url": "http://fao.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0217",
+      "@type": "void:Dataset",
+      "url": "http://farolas.linkeddata.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0218",
+      "@type": "void:Dataset",
+      "url": "http://fintrans.publicdata.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0219",
+      "@type": "void:Dataset",
+      "url": "http://foodpedia.tk/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0220",
+      "@type": "void:Dataset",
+      "url": "http://foreign.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0221",
+      "@type": "void:Dataset",
+      "url": "http://foreign.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0222",
+      "@type": "void:Dataset",
+      "url": "http://fr.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0223",
+      "@type": "void:Dataset",
+      "url": "http://frb.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0224",
+      "@type": "void:Dataset",
+      "url": "http://ft.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0225",
+      "@type": "void:Dataset",
+      "url": "http://fun.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0226",
+      "@type": "void:Dataset",
+      "url": "http://futurewavehosting.com:3030/my-family-lineage/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0227",
+      "@type": "void:Dataset",
+      "url": "http://gdlc.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0228",
+      "@type": "void:Dataset",
+      "url": "http://genage.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0229",
+      "@type": "void:Dataset",
+      "url": "http://genbank.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0230",
+      "@type": "void:Dataset",
+      "url": "http://gendr.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0231",
+      "@type": "void:Dataset",
+      "url": "http://geo.linkeddata.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0232",
+      "@type": "void:Dataset",
+      "url": "http://geografia.ideca.gov.co/fuseki/dataset.html?tab=query&ds=/inf",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0233",
+      "@type": "void:Dataset",
+      "url": "http://goa.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0234",
+      "@type": "void:Dataset",
+      "url": "http://gov.tso.co.uk/coins/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0235",
+      "@type": "void:Dataset",
+      "url": "http://gov.tso.co.uk/dclg/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0236",
+      "@type": "void:Dataset",
+      "url": "http://gov.tso.co.uk/legislation/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0237",
+      "@type": "void:Dataset",
+      "url": "http://gov.tso.co.uk/transport/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0238",
+      "@type": "void:Dataset",
+      "url": "http://govwild.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0239",
+      "@type": "void:Dataset",
+      "url": "http://greek-lod.auth.gr/fire-brigade/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0240",
+      "@type": "void:Dataset",
+      "url": "http://greek-lod.auth.gr/police/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0241",
+      "@type": "void:Dataset",
+      "url": "http://greek-lod.math.auth.gr/intervalue/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0242",
+      "@type": "void:Dataset",
+      "url": "http://greek-lod.math.auth.gr/kalikratis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0243",
+      "@type": "void:Dataset",
+      "url": "http://harvard.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0244",
+      "@type": "void:Dataset",
+      "url": "http://hawaii.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0245",
+      "@type": "void:Dataset",
+      "url": "http://hcls.deri.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0246",
+      "@type": "void:Dataset",
+      "url": "http://hcls.deri.org:8080/openrdf-sesame/repositories/tcga",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0247",
+      "@type": "void:Dataset",
+      "url": "http://healthdata.tw.rpi.edu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0248",
+      "@type": "void:Dataset",
+      "url": "http://helheim.deusto.es/bizkaisense/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0249",
+      "@type": "void:Dataset",
+      "url": "http://helheim.deusto.es/hedatuz/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0250",
+      "@type": "void:Dataset",
+      "url": "http://helheim.deusto.es/linkedstats/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0251",
+      "@type": "void:Dataset",
+      "url": "http://heritagedata.org/live/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0252",
+      "@type": "void:Dataset",
+      "url": "http://hgnc.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0253",
+      "@type": "void:Dataset",
+      "url": "http://homologene.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0254",
+      "@type": "void:Dataset",
+      "url": "http://howard.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0255",
+      "@type": "void:Dataset",
+      "url": "http://http://crashmap.okfn.gr:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0256",
+      "@type": "void:Dataset",
+      "url": "http://http://opendata.intellidomo.es:8080/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0257",
+      "@type": "void:Dataset",
+      "url": "http://hunter-cuny.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0258",
+      "@type": "void:Dataset",
+      "url": "http://ibm.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0259",
+      "@type": "void:Dataset",
+      "url": "http://ichoose.tw.rpi.edu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0260",
+      "@type": "void:Dataset",
+      "url": "http://id.ndl.go.jp/auth/ndla/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0261",
+      "@type": "void:Dataset",
+      "url": "http://id.ndl.go.jp/auth/ndlsh/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0262",
+      "@type": "void:Dataset",
+      "url": "http://id.sgcb.mcu.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0263",
+      "@type": "void:Dataset",
+      "url": "http://identifiers.org/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0264",
+      "@type": "void:Dataset",
+      "url": "http://idi.fundacionctic.org/classifications_endpoint/eurovoc",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0265",
+      "@type": "void:Dataset",
+      "url": "http://ieee.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0266",
+      "@type": "void:Dataset",
+      "url": "http://ieeevis.tw.rpi.edu/nosparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0267",
+      "@type": "void:Dataset",
+      "url": "http://imash.leeds.ac.uk:8080/openrdf-workbench/repositories/AMOnSPARQL/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0268",
+      "@type": "void:Dataset",
+      "url": "http://imf.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0269",
+      "@type": "void:Dataset",
+      "url": "http://inoh.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0270",
+      "@type": "void:Dataset",
+      "url": "http://interpro.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0271",
+      "@type": "void:Dataset",
+      "url": "http://iproclass.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0272",
+      "@type": "void:Dataset",
+      "url": "http://irefindex.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0273",
+      "@type": "void:Dataset",
+      "url": "http://irit.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0274",
+      "@type": "void:Dataset",
+      "url": "http://iserve.kmi.open.ac.uk/iserve/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0275",
+      "@type": "void:Dataset",
+      "url": "http://italy.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0276",
+      "@type": "void:Dataset",
+      "url": "http://ja.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0277",
+      "@type": "void:Dataset",
+      "url": "http://jisc.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0278",
+      "@type": "void:Dataset",
+      "url": "http://jsu.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0279",
+      "@type": "void:Dataset",
+      "url": "http://kaiko.getalp.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0280",
+      "@type": "void:Dataset",
+      "url": "http://kasabi.com/api/sparql-endpoint-foodista",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0281",
+      "@type": "void:Dataset",
+      "url": "http://kaunas.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0282",
+      "@type": "void:Dataset",
+      "url": "http://kegg.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0283",
+      "@type": "void:Dataset",
+      "url": "http://kent.zpr.fer.hr:8080/educationalProgram/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0284",
+      "@type": "void:Dataset",
+      "url": "http://kisti.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0285",
+      "@type": "void:Dataset",
+      "url": "http://km.aifb.kit.edu/services/xlike-lexicon/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0286",
+      "@type": "void:Dataset",
+      "url": "http://kwijibo.talis.com/latc-linksets/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0287",
+      "@type": "void:Dataset",
+      "url": "http://laas.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0288",
+      "@type": "void:Dataset",
+      "url": "http://lab.environment.data.gov.au/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0289",
+      "@type": "void:Dataset",
+      "url": "http://lab3.libris.kb.se/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0290",
+      "@type": "void:Dataset",
+      "url": "http://labs.mondeca.com/endpoint/ends",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0291",
+      "@type": "void:Dataset",
+      "url": "http://ld.panlex.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0292",
+      "@type": "void:Dataset",
+      "url": "http://ldf.fi/ww1lod/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0293",
+      "@type": "void:Dataset",
+      "url": "http://lexinfo.net/corpora/alpino/query.php",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0294",
+      "@type": "void:Dataset",
+      "url": "http://libver.math.auth.gr/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0295",
+      "@type": "void:Dataset",
+      "url": "http://linguistic.linkeddata.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0296",
+      "@type": "void:Dataset",
+      "url": "http://linguistic.linkeddata.es/terminesp/sparql-editor",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0297",
+      "@type": "void:Dataset",
+      "url": "http://link.informatics.stonybrook.edu/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0298",
+      "@type": "void:Dataset",
+      "url": "http://linked-data.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0299",
+      "@type": "void:Dataset",
+      "url": "http://linked.opendata.cz/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0300",
+      "@type": "void:Dataset",
+      "url": "http://linkedarc.net/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0301",
+      "@type": "void:Dataset",
+      "url": "http://linkeddata.es/resource/ldqm/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0302",
+      "@type": "void:Dataset",
+      "url": "http://linkeddata.finki.ukim.mk/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0303",
+      "@type": "void:Dataset",
+      "url": "http://linkeddata.ge.imati.cnr.it:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0304",
+      "@type": "void:Dataset",
+      "url": "http://linkeddata.uriburner.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0305",
+      "@type": "void:Dataset",
+      "url": "http://linkeddata4.dia.fi.upm.es:8907/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0306",
+      "@type": "void:Dataset",
+      "url": "http://linkedgeodata.org/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0307",
+      "@type": "void:Dataset",
+      "url": "http://linkedlifedata.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0308",
+      "@type": "void:Dataset",
+      "url": "http://linkedopencommerce.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0309",
+      "@type": "void:Dataset",
+      "url": "http://linkedspending.aksw.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0310",
+      "@type": "void:Dataset",
+      "url": "http://linkedspl.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0311",
+      "@type": "void:Dataset",
+      "url": "http://linkedu.eu/catalogue/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0312",
+      "@type": "void:Dataset",
+      "url": "http://lisbon.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0313",
+      "@type": "void:Dataset",
+      "url": "http://live.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0314",
+      "@type": "void:Dataset",
+      "url": "http://lobid.org/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0315",
+      "@type": "void:Dataset",
+      "url": "http://lod.ac/bdls/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0316",
+      "@type": "void:Dataset",
+      "url": "http://lod.apc.gov.tw/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0317",
+      "@type": "void:Dataset",
+      "url": "http://lod.b3kat.de/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0318",
+      "@type": "void:Dataset",
+      "url": "http://lod.euscreen.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0319",
+      "@type": "void:Dataset",
+      "url": "http://lod.gesis.org/thesoz/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0320",
+      "@type": "void:Dataset",
+      "url": "http://lod.hebis.de/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0321",
+      "@type": "void:Dataset",
+      "url": "http://lod.kaist.ac.kr/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0322",
+      "@type": "void:Dataset",
+      "url": "http://lod.kipo.kr/data/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0323",
+      "@type": "void:Dataset",
+      "url": "http://lod.my-eventos.com/en/services/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0324",
+      "@type": "void:Dataset",
+      "url": "http://lod.openlinksw.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0325",
+      "@type": "void:Dataset",
+      "url": "http://lod.sztaki.hu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0326",
+      "@type": "void:Dataset",
+      "url": "http://lod.xdams.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0327",
+      "@type": "void:Dataset",
+      "url": "http://lodstats.aksw.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0328",
+      "@type": "void:Dataset",
+      "url": "http://lofd.tw.rpi.edu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0329",
+      "@type": "void:Dataset",
+      "url": "http://logd.tw.rpi.edu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0330",
+      "@type": "void:Dataset",
+      "url": "http://lov.okfn.org/endpoint/lov",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0331",
+      "@type": "void:Dataset",
+      "url": "http://lsd.taxonconcept.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0332",
+      "@type": "void:Dataset",
+      "url": "http://lsr.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0333",
+      "@type": "void:Dataset",
+      "url": "http://meducator.open.ac.uk/resourcesrestapi/rest/meducator/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0334",
+      "@type": "void:Dataset",
+      "url": "http://meharry.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0335",
+      "@type": "void:Dataset",
+      "url": "http://mesh.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0336",
+      "@type": "void:Dataset",
+      "url": "http://mgi.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0337",
+      "@type": "void:Dataset",
+      "url": "http://minsky.gsi.dit.upm.es/semanticwiki/index.php/Special:SPARQLEndpoint",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0338",
+      "@type": "void:Dataset",
+      "url": "http://miuras.inf.um.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0339",
+      "@type": "void:Dataset",
+      "url": "http://mlode.nlp2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0340",
+      "@type": "void:Dataset",
+      "url": "http://modip.aueb.gr/d2rq/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0341",
+      "@type": "void:Dataset",
+      "url": "http://montana.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0342",
+      "@type": "void:Dataset",
+      "url": "http://msm.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0343",
+      "@type": "void:Dataset",
+      "url": "http://n-lex.publicdata.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0344",
+      "@type": "void:Dataset",
+      "url": "http://ncbigene.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0345",
+      "@type": "void:Dataset",
+      "url": "http://ndb.publink.lod2.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0346",
+      "@type": "void:Dataset",
+      "url": "http://ndc.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0347",
+      "@type": "void:Dataset",
+      "url": "http://netpath.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0348",
+      "@type": "void:Dataset",
+      "url": "http://neuroweb.med.yale.edu:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0349",
+      "@type": "void:Dataset",
+      "url": "http://newcastle.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0350",
+      "@type": "void:Dataset",
+      "url": "http://nextprot.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0351",
+      "@type": "void:Dataset",
+      "url": "http://nl.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0352",
+      "@type": "void:Dataset",
+      "url": "http://nomisma.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0353",
+      "@type": "void:Dataset",
+      "url": "http://notube.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0354",
+      "@type": "void:Dataset",
+      "url": "http://nsf.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0355",
+      "@type": "void:Dataset",
+      "url": "http://oai.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0356",
+      "@type": "void:Dataset",
+      "url": "http://oecd.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0357",
+      "@type": "void:Dataset",
+      "url": "http://ohsu.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0358",
+      "@type": "void:Dataset",
+      "url": "http://omim.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0359",
+      "@type": "void:Dataset",
+      "url": "http://onto.beef.org.pl/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0360",
+      "@type": "void:Dataset",
+      "url": "http://onto.mondis.cz/openrdf-sesame/repositories/mondis-record-owlim",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0361",
+      "@type": "void:Dataset",
+      "url": "http://opendap.tw.rpi.edu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0362",
+      "@type": "void:Dataset",
+      "url": "http://opendata-bundestag.de/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0363",
+      "@type": "void:Dataset",
+      "url": "http://opendata.aragon.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0364",
+      "@type": "void:Dataset",
+      "url": "http://opendata.ccd.uniroma2.it/LMF/sparql/select",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0365",
+      "@type": "void:Dataset",
+      "url": "http://opendatacommunities.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0366",
+      "@type": "void:Dataset",
+      "url": "http://openuplabs.tso.co.uk/sparql/gov-education",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0367",
+      "@type": "void:Dataset",
+      "url": "http://orphanet.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0368",
+      "@type": "void:Dataset",
+      "url": "http://os.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0369",
+      "@type": "void:Dataset",
+      "url": "http://os.services.tso.co.uk/geo/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0370",
+      "@type": "void:Dataset",
+      "url": "http://pathwaycommons.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0371",
+      "@type": "void:Dataset",
+      "url": "http://pharmgkb.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0372",
+      "@type": "void:Dataset",
+      "url": "http://photos.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0373",
+      "@type": "void:Dataset",
+      "url": "http://pid.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0374",
+      "@type": "void:Dataset",
+      "url": "http://pisa.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0375",
+      "@type": "void:Dataset",
+      "url": "http://platform.uberblic.org/api/v1/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0376",
+      "@type": "void:Dataset",
+      "url": "http://pomelo.iis.sinica.edu.tw:2020/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0377",
+      "@type": "void:Dataset",
+      "url": "http://prelex.publicdata.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0378",
+      "@type": "void:Dataset",
+      "url": "http://premon.fbk.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0379",
+      "@type": "void:Dataset",
+      "url": "http://provenanceweb.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0380",
+      "@type": "void:Dataset",
+      "url": "http://psm.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0381",
+      "@type": "void:Dataset",
+      "url": "http://pt.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0382",
+      "@type": "void:Dataset",
+      "url": "http://pubchem.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0383",
+      "@type": "void:Dataset",
+      "url": "http://publicspending.medialab.ntua.gr/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0384",
+      "@type": "void:Dataset",
+      "url": "http://pubmed.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0385",
+      "@type": "void:Dataset",
+      "url": "http://purl.org/openbibliosets/iucrsparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0386",
+      "@type": "void:Dataset",
+      "url": "http://purl.org/twc/arrayexpress/virtuoso/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0387",
+      "@type": "void:Dataset",
+      "url": "http://purl.org/twc/hub/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0388",
+      "@type": "void:Dataset",
+      "url": "http://purl.org/weso/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0389",
+      "@type": "void:Dataset",
+      "url": "http://rae2001.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0390",
+      "@type": "void:Dataset",
+      "url": "http://rdf.disgenet.org/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0391",
+      "@type": "void:Dataset",
+      "url": "http://rdf.farmbio.uu.se/chembl/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0392",
+      "@type": "void:Dataset",
+      "url": "http://rdf.muninn-project.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0393",
+      "@type": "void:Dataset",
+      "url": "http://rdf.myexperiment.org/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0394",
+      "@type": "void:Dataset",
+      "url": "http://rdf.ng-london.org.uk/raphael",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0395",
+      "@type": "void:Dataset",
+      "url": "http://rdfabout.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0396",
+      "@type": "void:Dataset",
+      "url": "http://reactome.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0397",
+      "@type": "void:Dataset",
+      "url": "http://resex.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0398",
+      "@type": "void:Dataset",
+      "url": "http://resource.geolba.ac.at/PoolParty/sparql/GeologicTimeScale",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0399",
+      "@type": "void:Dataset",
+      "url": "http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0400",
+      "@type": "void:Dataset",
+      "url": "http://resource.geolba.ac.at/PoolParty/sparql/lithology",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0401",
+      "@type": "void:Dataset",
+      "url": "http://resource.geolba.ac.at/PoolParty/sparql/tectonicunit",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0402",
+      "@type": "void:Dataset",
+      "url": "http://resrev.ilrt.bris.ac.uk/data-server-workshop/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0403",
+      "@type": "void:Dataset",
+      "url": "http://revyu.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0404",
+      "@type": "void:Dataset",
+      "url": "http://rhea.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0405",
+      "@type": "void:Dataset",
+      "url": "http://rijksmuseum.dydra.com/lizzyjongma/rijksmuseum-collection/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0406",
+      "@type": "void:Dataset",
+      "url": "http://ring.ciard.net/sparql1",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0407",
+      "@type": "void:Dataset",
+      "url": "http://risks.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0408",
+      "@type": "void:Dataset",
+      "url": "http://river.styx.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0409",
+      "@type": "void:Dataset",
+      "url": "http://roma.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0410",
+      "@type": "void:Dataset",
+      "url": "http://roni.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0411",
+      "@type": "void:Dataset",
+      "url": "http://ruian.linked.opendata.cz/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0412",
+      "@type": "void:Dataset",
+      "url": "http://sabiork.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0413",
+      "@type": "void:Dataset",
+      "url": "http://seek.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0414",
+      "@type": "void:Dataset",
+      "url": "http://semantic-web-journal.com:3030/sparql.tpl",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0415",
+      "@type": "void:Dataset",
+      "url": "http://semantic.ckan.net/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0416",
+      "@type": "void:Dataset",
+      "url": "http://semantic.eea.europa.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0417",
+      "@type": "void:Dataset",
+      "url": "http://semanticweb.cs.vu.nl/dss/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0418",
+      "@type": "void:Dataset",
+      "url": "http://semanticweb.cs.vu.nl/europeana/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0419",
+      "@type": "void:Dataset",
+      "url": "http://semanticweb.cs.vu.nl/iati/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0420",
+      "@type": "void:Dataset",
+      "url": "http://semanticweb.cs.vu.nl/verrijktkoninkrijk/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0421",
+      "@type": "void:Dataset",
+      "url": "http://serendipity.utpl.edu.ec/lod/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0422",
+      "@type": "void:Dataset",
+      "url": "http://services.data.gov.uk/business/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0423",
+      "@type": "void:Dataset",
+      "url": "http://services.data.gov.uk/education/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0424",
+      "@type": "void:Dataset",
+      "url": "http://services.data.gov.uk/environment/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0425",
+      "@type": "void:Dataset",
+      "url": "http://services.data.gov.uk/patents/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0426",
+      "@type": "void:Dataset",
+      "url": "http://services.data.gov.uk/reference/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0427",
+      "@type": "void:Dataset",
+      "url": "http://services.data.gov.uk/research/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0428",
+      "@type": "void:Dataset",
+      "url": "http://services.data.gov.uk/statistics/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0429",
+      "@type": "void:Dataset",
+      "url": "http://services.data.gov.uk/transport/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0430",
+      "@type": "void:Dataset",
+      "url": "http://services.data.gov/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0431",
+      "@type": "void:Dataset",
+      "url": "http://services.insemtives.eu/forest/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0432",
+      "@type": "void:Dataset",
+      "url": "http://setaria.oszk.hu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0433",
+      "@type": "void:Dataset",
+      "url": "http://sgd.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0434",
+      "@type": "void:Dataset",
+      "url": "http://sider.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0435",
+      "@type": "void:Dataset",
+      "url": "http://skos.um.es/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0436",
+      "@type": "void:Dataset",
+      "url": "http://smartlink.open.ac.uk/smartlink/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0437",
+      "@type": "void:Dataset",
+      "url": "http://soa4all.isoco.net/luf/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0438",
+      "@type": "void:Dataset",
+      "url": "http://socialarchive.iath.virginia.edu/sparql/eac",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0439",
+      "@type": "void:Dataset",
+      "url": "http://socialarchive.iath.virginia.edu/sparql/snac-viaf",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0440",
+      "@type": "void:Dataset",
+      "url": "http://sonicbanana.cs.wright.edu:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0441",
+      "@type": "void:Dataset",
+      "url": "http://southampton.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0442",
+      "@type": "void:Dataset",
+      "url": "http://sparql-procomun.educalab.es/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0443",
+      "@type": "void:Dataset",
+      "url": "http://sparql.contextdatacloud.org",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0444",
+      "@type": "void:Dataset",
+      "url": "http://sparql.data.southampton.ac.uk/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0445",
+      "@type": "void:Dataset",
+      "url": "http://sparql.jesandco.org:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0446",
+      "@type": "void:Dataset",
+      "url": "http://sparql.kupkb.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0447",
+      "@type": "void:Dataset",
+      "url": "http://sparql.linkedopendata.it/cap",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0448",
+      "@type": "void:Dataset",
+      "url": "http://sparql.linkedopendata.it/grrp",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0449",
+      "@type": "void:Dataset",
+      "url": "http://sparql.linkedopendata.it/grrt",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0450",
+      "@type": "void:Dataset",
+      "url": "http://sparql.linkedopendata.it/istat",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0451",
+      "@type": "void:Dataset",
+      "url": "http://sparql.linkedopendata.it/loc",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0452",
+      "@type": "void:Dataset",
+      "url": "http://sparql.linkedopendata.it/los",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0453",
+      "@type": "void:Dataset",
+      "url": "http://sparql.linkedopendata.it/musei",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0454",
+      "@type": "void:Dataset",
+      "url": "http://sparql.linkedopendata.it/scuole",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0455",
+      "@type": "void:Dataset",
+      "url": "http://sparql.msc2010.org",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0456",
+      "@type": "void:Dataset",
+      "url": "http://sparql.neurocommons.org:8890/nsparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0457",
+      "@type": "void:Dataset",
+      "url": "http://sparql.odw.tw",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0458",
+      "@type": "void:Dataset",
+      "url": "http://sparql.openmobilenetwork.org",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0459",
+      "@type": "void:Dataset",
+      "url": "http://sparql.reegle.info/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0460",
+      "@type": "void:Dataset",
+      "url": "http://sparql.sindice.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0461",
+      "@type": "void:Dataset",
+      "url": "http://sparql.sstu.ru:3030/speciality-vocabulary/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0462",
+      "@type": "void:Dataset",
+      "url": "http://sparql.uniprot.org",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0463",
+      "@type": "void:Dataset",
+      "url": "http://sparql.wikipathways.org/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0464",
+      "@type": "void:Dataset",
+      "url": "http://sparql.yovisto.com/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0465",
+      "@type": "void:Dataset",
+      "url": "http://spatial.ucd.ie/lod/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0466",
+      "@type": "void:Dataset",
+      "url": "http://spending.lichfielddc.gov.uk/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0467",
+      "@type": "void:Dataset",
+      "url": "http://spike.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0468",
+      "@type": "void:Dataset",
+      "url": "http://sw.unime.it:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0469",
+      "@type": "void:Dataset",
+      "url": "http://symbolicdata.org:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0470",
+      "@type": "void:Dataset",
+      "url": "http://taxonomy.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0471",
+      "@type": "void:Dataset",
+      "url": "http://tcga.deri.ie",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0472",
+      "@type": "void:Dataset",
+      "url": "http://telegraphis.net/data/countries/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0473",
+      "@type": "void:Dataset",
+      "url": "http://tkm.kiom.re.kr/ontology/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0474",
+      "@type": "void:Dataset",
+      "url": "http://tour-pedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0475",
+      "@type": "void:Dataset",
+      "url": "http://transparency.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0476",
+      "@type": "void:Dataset",
+      "url": "http://tsu.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0477",
+      "@type": "void:Dataset",
+      "url": "http://tuskegee.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0478",
+      "@type": "void:Dataset",
+      "url": "http://twarql.org:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0479",
+      "@type": "void:Dataset",
+      "url": "http://uccaribe.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0480",
+      "@type": "void:Dataset",
+      "url": "http://uis.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0481",
+      "@type": "void:Dataset",
+      "url": "http://ulm.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0482",
+      "@type": "void:Dataset",
+      "url": "http://unlocode.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0483",
+      "@type": "void:Dataset",
+      "url": "http://unodc.publicdata.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0484",
+      "@type": "void:Dataset",
+      "url": "http://upr.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0485",
+      "@type": "void:Dataset",
+      "url": "http://utep.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0486",
+      "@type": "void:Dataset",
+      "url": "http://utsa.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0487",
+      "@type": "void:Dataset",
+      "url": "http://virtuoso-eurosentiment.paradigmatecnologico.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0488",
+      "@type": "void:Dataset",
+      "url": "http://visualdataweb.infor.uva.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0489",
+      "@type": "void:Dataset",
+      "url": "http://vocab.getty.edu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0490",
+      "@type": "void:Dataset",
+      "url": "http://vocab.nerc.ac.uk/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0491",
+      "@type": "void:Dataset",
+      "url": "http://vocabularies.unesco.org/sparql-form/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0492",
+      "@type": "void:Dataset",
+      "url": "http://vocabulary.semantic-web.at/PoolParty/sparql/AustrianSkiTeam",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0493",
+      "@type": "void:Dataset",
+      "url": "http://vocabulary.semantic-web.at/PoolParty/sparql/OpenData",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0494",
+      "@type": "void:Dataset",
+      "url": "http://vocabulary.semantic-web.at/PoolParty/sparql/semweb",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0495",
+      "@type": "void:Dataset",
+      "url": "http://vocabulary.wolterskluwer.de/PoolParty/sparql/arbeitsrecht",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0496",
+      "@type": "void:Dataset",
+      "url": "http://vocabulary.wolterskluwer.de/PoolParty/sparql/court",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0497",
+      "@type": "void:Dataset",
+      "url": "http://webconf.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0498",
+      "@type": "void:Dataset",
+      "url": "http://webenemasuno.linkeddata.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0499",
+      "@type": "void:Dataset",
+      "url": "http://webscience.rkbexplorer.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0500",
+      "@type": "void:Dataset",
+      "url": "http://wiki.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0501",
+      "@type": "void:Dataset",
+      "url": "http://wikidata.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0502",
+      "@type": "void:Dataset",
+      "url": "http://wikipathways.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0503",
+      "@type": "void:Dataset",
+      "url": "http://wiktionary.dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0504",
+      "@type": "void:Dataset",
+      "url": "http://wordnet.okfn.gr:8890/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0505",
+      "@type": "void:Dataset",
+      "url": "http://wordnet.rkbexplorer.com/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0506",
+      "@type": "void:Dataset",
+      "url": "http://worldbank.270a.info/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0507",
+      "@type": "void:Dataset",
+      "url": "http://wormbase.bio2rdf.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0508",
+      "@type": "void:Dataset",
+      "url": "http://www.archivesdefrance.culture.gouv.fr/thesaurus/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0509",
+      "@type": "void:Dataset",
+      "url": "http://www.auth.gr/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0510",
+      "@type": "void:Dataset",
+      "url": "http://www.crystallography.net:2020/snorql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0511",
+      "@type": "void:Dataset",
+      "url": "http://www.ebi.ac.uk/rdf/services/atlas/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0512",
+      "@type": "void:Dataset",
+      "url": "http://www.eclap.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0513",
+      "@type": "void:Dataset",
+      "url": "http://www.icane.es/opendata/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0514",
+      "@type": "void:Dataset",
+      "url": "http://www.ida.liu.se/projects/semtech/openrdf-sesame/repositories/energy",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0515",
+      "@type": "void:Dataset",
+      "url": "http://www.imagesnippets.com/sparql/images",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0516",
+      "@type": "void:Dataset",
+      "url": "http://www.inertia-linkeddata.iti.gr:9090/inertia-endpoint/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0517",
+      "@type": "void:Dataset",
+      "url": "http://www.influencetracker.com:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0518",
+      "@type": "void:Dataset",
+      "url": "http://www.linklion.org:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0519",
+      "@type": "void:Dataset",
+      "url": "http://www.lotico.com:3030/lotico/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0520",
+      "@type": "void:Dataset",
+      "url": "http://www.open-biomed.org.uk/sparql/endpoint/bdgp_20081030",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0521",
+      "@type": "void:Dataset",
+      "url": "http://www.open-biomed.org.uk/sparql/endpoint/flyatlas",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0522",
+      "@type": "void:Dataset",
+      "url": "http://www.open-biomed.org.uk/sparql/endpoint/flybase",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0523",
+      "@type": "void:Dataset",
+      "url": "http://www.open-biomed.org.uk/sparql/endpoint/flyted",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0524",
+      "@type": "void:Dataset",
+      "url": "http://www.open-biomed.org.uk/sparql/endpoint/tcm",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0525",
+      "@type": "void:Dataset",
+      "url": "http://www.opmw.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0526",
+      "@type": "void:Dataset",
+      "url": "http://www.rdfabout.com/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0527",
+      "@type": "void:Dataset",
+      "url": "http://www.rechercheisidore.fr/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0528",
+      "@type": "void:Dataset",
+      "url": "http://www.sparql.org/sparql.html",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0529",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/cordis/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0530",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/dailymed/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0531",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/dblp/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0532",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/diseasome/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0533",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/drugbank/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0534",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/eccompetition/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0535",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/euraxess/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0536",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/eures/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0537",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/eurostat/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0538",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/factbook/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0539",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/gutendata/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0540",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/medicare/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0541",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/sider/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0542",
+      "@type": "void:Dataset",
+      "url": "http://www4.wiwiss.fu-berlin.de/stitch/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0543",
+      "@type": "void:Dataset",
+      "url": "http://xula.eagle-i.net/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0544",
+      "@type": "void:Dataset",
+      "url": "http://zaire.dimis.fim.uni-passau.de:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0545",
+      "@type": "void:Dataset",
+      "url": "http://zbw.eu/beta/sparql/stw/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0546",
+      "@type": "void:Dataset",
+      "url": "http://zhishi.me/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0547",
+      "@type": "void:Dataset",
+      "url": "https://data.ox.ac.uk/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0548",
+      "@type": "void:Dataset",
+      "url": "https://dbmi-icode-01.dbmi.pitt.edu/dikb/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0549",
+      "@type": "void:Dataset",
+      "url": "https://dbmi-icode-01.dbmi.pitt.edu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0550",
+      "@type": "void:Dataset",
+      "url": "https://eagle-i.ea.vanderbilt.edu/sparqler/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0551",
+      "@type": "void:Dataset",
+      "url": "https://stirdf.jglobal.jst.go.jp/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0552",
+      "@type": "void:Dataset",
+      "url": "https://w3id.org/scholarlydata/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0553",
+      "@type": "void:Dataset",
+      "url": "https://www.ebi.ac.uk/rdf/services/biomodels/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0554",
+      "@type": "void:Dataset",
+      "url": "https://www.ebi.ac.uk/rdf/services/biosamples/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0555",
+      "@type": "void:Dataset",
+      "url": "https://www.ebi.ac.uk/rdf/services/chembl/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0556",
+      "@type": "void:Dataset",
+      "url": "https://www.ebi.ac.uk/rdf/services/reactome/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.json"
+    },
+    {
+      "@id": "0558",
+      "@type": "void:Dataset",
+      "url": "http://resource.geolba.ac.at/PoolParty/sparql/structure",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0563",
+      "@type": "void:Dataset",
+      "url": "http://data.surreycc.gov.uk/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0564",
+      "@type": "void:Dataset",
+      "url": "http://statistics.data.gov.uk/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0566",
+      "@type": "void:Dataset",
+      "url": "http://openuplabs.tso.co.uk/sparql/gov-coins",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0567",
+      "@type": "void:Dataset",
+      "url": "http://openuplabs.tso.co.uk/?url=http://gov.tso.co.uk/legislation/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0568",
+      "@type": "void:Dataset",
+      "url": "http://webarchive.nationalarchives.gov.uk/+/http://gov.tso.co.uk/legislation/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0569",
+      "@type": "void:Dataset",
+      "url": "http://linked-development.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0571",
+      "@type": "void:Dataset",
+      "url": "http://linguistic.linkeddata.es/apertium/sparql-editor/",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0572",
+      "@type": "void:Dataset",
+      "url": "http://linguistic.linkeddata.es/sparql/",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0575",
+      "@type": "void:Dataset",
+      "url": "http://opendata.computas.no:7011/joseki",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0576",
+      "@type": "void:Dataset",
+      "url": "http://risp.asturias.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0577",
+      "@type": "void:Dataset",
+      "url": "https://ckannet-storage.commondatastorage.googleapis.com/2014-05-27T19:10:22.652Z/dogdb-queries-tar.gz",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0579",
+      "@type": "void:Dataset",
+      "url": "http://gho.aksw.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0580",
+      "@type": "void:Dataset",
+      "url": "http://ontology.irstea.fr/weather/snorql/",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0581",
+      "@type": "void:Dataset",
+      "url": "http://kdata.kr/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0582",
+      "@type": "void:Dataset",
+      "url": "http://us.patents.aksw.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0584",
+      "@type": "void:Dataset",
+      "url": "http://lod.nl.go.kr/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0585",
+      "@type": "void:Dataset",
+      "url": "http://data.lirmm.fr/openrdf-workbench/repositories/Passim/query",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0586",
+      "@type": "void:Dataset",
+      "url": "http://arcdev.housing.salle.url.edu/repener/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0587",
+      "@type": "void:Dataset",
+      "url": "http://triples.cerch.kcl.ac.uk:51515/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0588",
+      "@type": "void:Dataset",
+      "url": "http://digitale.bncf.firenze.sbn.it/openrdf-workbench/repositories/NS/saved-queries",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0589",
+      "@type": "void:Dataset",
+      "url": "http://opendata.caceres.es/sparql/",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0611",
+      "@type": "void:Dataset",
+      "url": "http://dati.isma.roma.it/sparql/",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0706",
+      "@type": "void:Dataset",
+      "url": "https://linked.opendata.cz/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0707",
+      "@type": "void:Dataset",
+      "url": "https://nkod.opendata.cz/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "0708",
+      "@type": "void:Dataset",
+      "url": "https://ruian.linked.opendata.cz/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1113",
+      "@type": "void:Dataset",
+      "url": "http://vocabularies.unesco.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1138",
+      "@type": "void:Dataset",
+      "url": "http://linkedmanchester.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1139",
+      "@type": "void:Dataset",
+      "url": "http://opendata.caceres.es/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1140",
+      "@type": "void:Dataset",
+      "url": "http://data.salzburgerland.com/dataset/accomodations",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1141",
+      "@type": "void:Dataset",
+      "url": "http://data.salzburgerland.com/dataset/accommodations",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1142",
+      "@type": "void:Dataset",
+      "url": "http://data.salzburgerland.com/dataset/events",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1143",
+      "@type": "void:Dataset",
+      "url": "http://data.salzburgerland.com/dataset/local-businesses",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1144",
+      "@type": "void:Dataset",
+      "url": "http://data.salzburgerland.com/dataset/places",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1145",
+      "@type": "void:Dataset",
+      "url": "http://data.salzburgerland.com/dataset/products",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1146",
+      "@type": "void:Dataset",
+      "url": "http://data.salzburgerland.com/dataset/salzburgerland",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1147",
+      "@type": "void:Dataset",
+      "url": "http://data.cervantesvirtual.com/geosearch",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1148",
+      "@type": "void:Dataset",
+      "url": "http://83.212.169.101:8890/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1149",
+      "@type": "void:Dataset",
+      "url": "http://esb.goteborg.se/TEIK/001/Kalendarie/",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1150",
+      "@type": "void:Dataset",
+      "url": "http://data.nobelprize.org/sparql/",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1151",
+      "@type": "void:Dataset",
+      "url": "http://landregistry.data.gov.uk/landregistry/sparql/sparql.html",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1152",
+      "@type": "void:Dataset",
+      "url": "http://openuplabs.tso.co.uk/sparql/gov-legislation",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1153",
+      "@type": "void:Dataset",
+      "url": "http://rlink.cineca.it/",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1154",
+      "@type": "void:Dataset",
+      "url": "http://lod-cloud.net/data/void.ttl",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1155",
+      "@type": "void:Dataset",
+      "url": "http://vocab.getty.edu/queries",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1157",
+      "@type": "void:Dataset",
+      "url": "http://api.talis.com/stores/lcsh-info/services/sparql",
+      "created": "2023-07-11",
+      "source": "https://opendatamonitor.eu/"
+    },
+    {
+      "@id": "1158",
+      "@type": "void:Dataset",
+      "url": "https://www.europeandataportal.eu/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1159",
+      "@type": "void:Dataset",
+      "url": "https://data.cssz.cz/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1160",
+      "@type": "void:Dataset",
+      "url": "http://cedropendata.mfcr.cz/c3lod/cedr/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1161",
+      "@type": "void:Dataset",
+      "url": "http://lod.csd.auth.gr:7200/repositories/DBpediaCitation_links",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1162",
+      "@type": "void:Dataset",
+      "url": "https://data.epo.org/linked-data/query",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1163",
+      "@type": "void:Dataset",
+      "url": "http://94.199.43.20/odrpp/sparql/",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1164",
+      "@type": "void:Dataset",
+      "url": "https://data.gov.cz/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1165",
+      "@type": "void:Dataset",
+      "url": "https://rpp-opendata.egon.gov.cz/odrpp/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1166",
+      "@type": "void:Dataset",
+      "url": "http://data.nationallibrary.fi/bib/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1167",
+      "@type": "void:Dataset",
+      "url": "https://snap.dighum.kcl.ac.uk/query/",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1168",
+      "@type": "void:Dataset",
+      "url": "http://ld.iospress.nl:3030/ios/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1169",
+      "@type": "void:Dataset",
+      "url": "http://statistics.gov.scot/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1170",
+      "@type": "void:Dataset",
+      "url": "https://www.ebi.ac.uk/rdf/services/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1171",
+      "@type": "void:Dataset",
+      "url": "http://sparql.orthodb.org/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1172",
+      "@type": "void:Dataset",
+      "url": "http://id.nlm.nih.gov/mesh/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1173",
+      "@type": "void:Dataset",
+      "url": "http://sparql.uniprot.org/sparql",
+      "created": "2023-07-11"
+    },
+    {
+      "@id": "1175",
+      "@type": "void:Dataset",
+      "url": "https://dev.nkod.opendata.cz/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/mff-uk/https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.jsons/blob/master/notes/active_endpoints.md",
+      "title": "Národní Katalog Otevrenych Dat - CZ Government"
+    },
+    {
+      "@id": "1177",
+      "@type": "void:Dataset",
+      "url": "https://dbpedia.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/mff-uk/https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.jsons/blob/master/notes/active_endpoints.md",
+      "title": "DBPedia"
+    },
+    {
+      "@id": "1178",
+      "@type": "void:Dataset",
+      "url": "http://www.scholarlydata.org/sparql/",
+      "created": "2023-07-11",
+      "source": "https://github.com/mff-uk/https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.jsons/blob/master/notes/active_endpoints.md",
+      "title": "ScholarlyData.org"
+    },
+    {
+      "@id": "1179",
+      "@type": "void:Dataset",
+      "url": "https://ldf.fi/ww1lod/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/mff-uk/https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.jsons/blob/master/notes/active_endpoints.md",
+      "title": "WW1 as LOD"
+    },
+    {
+      "@id": "1182",
+      "@type": "void:Dataset",
+      "url": "https://openei.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/mff-uk/https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.jsons/blob/master/notes/active_endpoints.md",
+      "title": "OpenEI - Open Energy Information"
+    },
+    {
+      "@id": "1183",
+      "@type": "void:Dataset",
+      "url": "http://linkedgeodata.org/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/mff-uk/https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.jsons/blob/master/notes/active_endpoints.md",
+      "title": "LinkedGeoData - OpenStreetMap in RDF"
+    },
+    {
+      "@id": "1185",
+      "@type": "void:Dataset",
+      "url": "https://semantic.eea.europa.eu/sparql",
+      "created": "2023-07-11",
+      "source": "https://github.com/mff-uk/https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.jsons/blob/master/notes/active_endpoints.md",
+      "title": "European Environment Agency"
+    },
+    {
+      "@id": "1186",
+      "@type": "void:Dataset",
+      "url": "https://environment.data.gov.uk/sparql/bwq/query",
+      "created": "2023-07-11",
+      "source": "https://github.com/mff-uk/https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.jsons/blob/master/notes/active_endpoints.md",
+      "title": "UK Environment Agency bathing water quality"
+    },
+    {
+      "@id": "1187",
+      "@type": "void:Dataset",
+      "url": "https://environment.data.gov.uk/bwq/sparql.html",
+      "created": "2023-07-11",
+      "source": "https://github.com/mff-uk/https://github.com/pyvandenbussche/sparqles/blob/master/endpoints.jsons/blob/master/notes/active_endpoints.md",
+      "title": "UK Environment Agency bathing water quality"
+    }
+  ]
+}
