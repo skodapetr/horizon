@@ -117,7 +117,7 @@ def test_endpoint(url: str) -> tuple[bool, bool]:
     """Using a simple ASK query test the endpoint."""
     endpoint = SPARQLWrapper(url)
     endpoint.setTimeout(TIMEOUT_SECOND)
-    endpoint.setQuery("ASK WHERE { ?s ?p ?o }")
+    endpoint.setQuery("SELECT ?s ?p ?o WHERE{ ?s ?p ?o } LIMIT 1")
     endpoint.setReturnFormat(JSON)
     try:
         response = endpoint.query().convert()
